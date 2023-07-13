@@ -18,6 +18,19 @@
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
 
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-40-115.ap-south-1.compute.internal-releases</name>
+        <url>http://43.205.228.118:8081/artifactory/mustafa-repo</url>
+    </repository>
+    <snapshotRepository>
+        <id>central</id>
+        <name>ip-172-31-40-115.ap-south-1.compute.internal-snapshots</name>
+        <url>http://43.205.228.118:8081/artifactory/mustafa-repo</url>
+    </snapshotRepository>
+</distributionManagement>
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
